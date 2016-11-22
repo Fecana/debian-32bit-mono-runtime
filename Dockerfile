@@ -1,4 +1,4 @@
-FROM 32bit/debian
+FROM ioft/i386-ubuntu
 
 MAINTAINER Fecana
 
