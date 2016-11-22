@@ -11,6 +11,6 @@ RUN echo "deb http://download.mono-project.com/repo/debian wheezy main" > /etc/a
 	&& echo "deb http://download.mono-project.com/repo/debian wheezy-apache24-compat main" >> /etc/apt/sources.list.d/mono-xamarin.list \
 	&& echo "deb http://download.mono-project.com/repo/debian wheezy-libjpeg62-compat main" >> /etc/apt/sources.list.d/mono-xamarin.list \
 	&& apt-get update \
-	&& apt-get install libmono2.0-cil mono-runtime 
+	&& apt-get install -y libmono2.0-cil mono-runtime 
 
 EXPOSE 12345
